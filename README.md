@@ -14,9 +14,9 @@ The objective of this repo is to provide code samples that may serve as proof of
 * JS Plugin: Select2 & SweetAlert
 * JS/Jquery Pushes & Ajax Requests
 * Custom Traits
-* Caching using Memcached
+    * Caching using Memcached
 
-## Installation
+    ## Installation
 
     git clone https://github.com/laravel/quickstart-basic quickstart
 
