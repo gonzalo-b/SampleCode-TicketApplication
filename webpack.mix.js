@@ -1,5 +1,7 @@
 const { mix } = require('laravel-mix');
 
+var bowerDir = './bower_components/';
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -13,3 +15,7 @@ const { mix } = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.styles([
+    'font-awesome/css/font-awesome.min.css',
+], 'public/css/packages.css', bowerDir);

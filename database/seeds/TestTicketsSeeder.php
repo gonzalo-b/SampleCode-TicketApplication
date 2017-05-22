@@ -14,10 +14,7 @@ class TestTicketsSeeder extends Seeder
     {
         $faker = Faker::create();
 
-        factory(App\Ticket::class,5)->create([
-            'subject' => $faker->sentence(5),
-            'summary' => $faker->paragraph(2),
-            'user_id' => 1,
-        ]);
+        factory(\App\Ticket::class,5)->create();
+        factory(\App\TicketComment::class,10)->create();
     }
 }
