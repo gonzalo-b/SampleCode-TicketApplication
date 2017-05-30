@@ -14,8 +14,14 @@ var bowerDir = './bower_components/';
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+    .sass('resources/assets/sass/app.scss', 'public/css');
 
 mix.styles([
-    'font-awesome/css/font-awesome.min.css',
+    'font-awesome/css/font-awesome.css',
+    'sb-admin-2/dist/css/sb-admin-2.min.css',
 ], 'public/css/packages.css', bowerDir);
+
+mix.scripts([
+    'sb-admin-2/dist/js/sb-admin-2.min.js',
+], 'public/js/all.js', bowerDir);
+
