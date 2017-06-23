@@ -2,5 +2,9 @@
   "/js/app.js": "/js/app.js",
   "/css/app.css": "/css/app.css",
   "/css/packages.css": "/css/packages.css",
-  "/js/all.js": "/js/all.js"
+  "/js/all.js": "/js/all.js",
+  "/css/mix.css": "/css/mix.css",
+  "/mix.js": "/mix.js",
+  "/css/mix.js": "/css/mix.js",
+  "/js/mix.js": "/js/mix.js"
 }
